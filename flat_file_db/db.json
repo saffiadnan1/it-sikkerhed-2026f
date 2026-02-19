@@ -4,9 +4,9 @@
             "person_id": 2,
             "first_name": "Peter",
             "last_name": "Nielsen",
-            "address": "High Street",
+            "address": "gAAAAABpl0CcYx8xoWRpCsoyI0MefKyw37hP6DiBqa1VUvzWjmSEK7UBHWP4nSwT8ZQfbtl9Zaz2zo2Np_nxstWS_IgqH-1T-Q==",
             "street_number": 5,
-            "password": "password",
+            "password": "$2b$12$MOivDJAy3ZAkKRbpEIbidu3LoOSON2BDlDM65z1S2plyJgeNJLha.",
             "enabled": false
         }
     ]

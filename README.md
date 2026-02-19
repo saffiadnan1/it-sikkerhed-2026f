@@ -113,3 +113,51 @@ Hvis testene fejler, kan det betyde:
 ## Screenshots
 
 
+
+
+## Kryptering og hashing
+Valg af krypterings- og hashing-algoritmer
+
+Til hashing af passwords er bcrypt valgt. Bcrypt er designet specifikt til passwords og er langsom, hvilket beskytter mod brute-force angreb. Passwords kan ikke dekrypteres og gemmes aldrig i klartekst, hvilket er vigtigt for GDPR og datasikkerhed.
+
+Til kryptering af følsomme data er AES via Fernet (cryptography-biblioteket) valgt. AES er en udbredt og sikker standard, og Fernet sikrer korrekt brug af kryptering og dekryptering.
+
+## Hvornår krypteres data
+
+Data krypteres, når de gemmes i databasen (db.json). Det betyder, at følsomme oplysninger som adresse aldrig lagres i klartekst, men altid i krypteret form.
+
+## Hvornår dekrypteres data
+
+Data dekrypteres kun når de skal bruges, for eksempel når en bruger hentes fra databasen. Dekryptering sker midlertidigt og kun i det øjeblik, data skal vises eller behandles.
+
+## Hvornår fjernes dekrypteret data fra hukommelsen
+
+Dekrypteret data fjernes igen straks efter brug. Når funktionen afsluttes, fjernes data automatisk fra hukommelsen, så følsomme oplysninger ikke opbevares unødigt i klartekst.
+
+## Tests af kryptering og hashing
+
+Der er lavet unit tests, som tester:
+
+at passwords bliver hashet og ikke gemt i klartekst
+
+at krypterede data ikke gemmes som læsbar tekst
+
+at data kan dekrypteres korrekt, når det er nødvendigt
+
+Hvis disse tests fejler, kan det betyde, at følsomme data ikke er beskyttet korrekt.
+
+## Yderligere hensyn
+
+Der bør også tages hensyn til:
+
+at krypteringsnøglen opbevares separat fra databasen
+
+at adgang til databasen er begrænset
+
+at der kun dekrypteres data, når det er nødvendigt
+
+at logs ikke indeholder følsomme oplysninger
+
+## screenshot
+
+
