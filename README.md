@@ -1,8 +1,6 @@
 # it-sikkerhed-2026f
 
 
-
-
 Teststrategier – Login (IT-sikkerhed)
 Emne
 
@@ -77,3 +75,14 @@ Under udvikling: Unit test og grænseværditest
 Før deployment: Integration test og decision table test
 
 Før release: UI test og cycle process test
+
+
+## Testresultater af unittest
+
+### Bestået test
+### Fejlet test
+### Skippet test
+
+![alt text](image.png)
+
+
