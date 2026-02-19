@@ -86,3 +86,30 @@ Før release: UI test og cycle process test
 ![alt text](image.png)
 
 
+
+# Flat File Database
+
+## Hvad er en flat_file_db?
+En flat file database gemmer data i én JSON-fil.
+Det er smart til små systemer, fordi det er simpelt og nemt at vedligeholde.
+
+## Funktioner i databasen
+- Opret bruger
+- Hent bruger via person_id
+- Deaktivér bruger
+
+## Tests
+Der er lavet unit tests, som tester:
+- at en bruger kan oprettes korrekt
+- at en bruger der ikke findes returnerer None
+- at en bruger kan deaktiveres
+
+## Risici
+Hvis testene fejler, kan det betyde:
+- at brugere ikke bliver gemt korrekt
+- at forkerte brugere bliver hentet
+- at deaktiverede brugere stadig kan være aktive
+
+## Screenshots
+
+

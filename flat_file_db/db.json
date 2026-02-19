@@ -1,0 +1,13 @@
+{
+    "users": [
+        {
+            "person_id": 2,
+            "first_name": "Peter",
+            "last_name": "Nielsen",
+            "address": "High Street",
+            "street_number": 5,
+            "password": "password",
+            "enabled": false
+        }
+    ]
+}
