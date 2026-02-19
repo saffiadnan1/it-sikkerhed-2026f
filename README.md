@@ -111,6 +111,7 @@ Hvis testene fejler, kan det betyde:
 - at deaktiverede brugere stadig kan være aktive
 
 ## Screenshots
+<img width="1310" height="296" alt="image" src="https://github.com/user-attachments/assets/54723125-1a86-4743-8c31-9987f15ae175" />
 
 
 
