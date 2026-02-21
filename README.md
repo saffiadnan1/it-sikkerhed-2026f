@@ -161,4 +161,5 @@ at logs ikke indeholder følsomme oplysninger
 
 ## screenshot
 
+<img width="1318" height="172" alt="image" src="https://github.com/user-attachments/assets/7801910c-c483-430f-bc25-5959858fd1df" />
 
