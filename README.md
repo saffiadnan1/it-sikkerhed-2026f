@@ -163,3 +163,21 @@ at logs ikke indeholder følsomme oplysninger
 
 <img width="1318" height="172" alt="image" src="https://github.com/user-attachments/assets/7801910c-c483-430f-bc25-5959858fd1df" />
 
+
+## REST API
+
+Der er implementeret et REST API med FastAPI.
+API’et kan testes via Swagger UI på http://127.0.0.1:8000/docs.
+
+API’et understøtter:
+- Create: Opret bruger
+- Read: Hent bruger
+- Update: Deaktivér bruger
+- Delete: Slet bruger
+- List: Vis alle brugere
+
+API’et bruger den eksisterende flat_file_db som datalager.
+
+## screenshoot
+
+<img width="1890" height="958" alt="image" src="https://github.com/user-attachments/assets/eea81ce6-12fc-4cd1-bb57-d88ac6399506" />
